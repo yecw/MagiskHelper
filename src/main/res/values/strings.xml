@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MagiskHelper</string>
+    <string name="guess">MagiskHelper</string>
+    <string name="lfile_NotFoundBooks">请选择导入的图书</string>
+    <string name="lfile_NotFoundPath">SD 存储卡状态不可用</string>
+    <string name="lfile_UpOneLevel">上一级</string>
+    <string name="lfile_Selected">选中</string>
+    <string name="lfile_LItem">项</string>
+    <string name="lfile_Detail">详情</string>
+    <string name="lfile_FileSize">文件大小 : </string>
+    <string name="lfile_OutSize">已经达到最大选择数量</string>
+    <string name="lfile_SelectAll">全选</string>
+    <string name="lfile_Cancel">取消全选</string>
+    <string name="lfile_OK">确定</string>
+    <string name="lfile_ChooseTip">请选择文件夹</string>
+    <string name="choseMagiskFile">选择Magisk.zip文件</string>
+    <string name="choseBootFile">选择Boot.img文件</string>
+    <string name="copyToCache">Copy to Cache</string>
+    <string name="patch_boot">Patch Boot</string>
+    <string name="cp_command">cp %s /data/data/com.topjohnwu.magisk/cache/magisk.zip</string>
+    <string name="patch_command">am start -n com.topjohnwu.magisk/a.f -d file://%s --es action patch</string>
+    <string name="boot_file_not_found">Boot文件未找到</string>
+    <string name="magisk_file_not_found">Magisk文件未找到</string>
+</resources>
